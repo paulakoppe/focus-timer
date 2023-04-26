@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --bg-color: #121214;
+    --bg-primary-light: hsla(0, 0%, 100%, 0.055);
+    --primary-color: #c1a3e4;
+
+    --text-color: #fff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+
+    display: grid;
+    min-height: 100vh;
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+button {
+    width: clamp(3.2rem, 2rem + 12vw, 6.4rem);
+    transition: opacity 0.4s;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+main {
+    align-self: end;
+    justify-self: center;
+}
+
+footer {
+    align-items: end;
+    justify-self: end;
+
+    padding: 0 4rem 3.2rem;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+#timer {
+    font-size: clamp(4rem, 4rem + 10vw, 8.8rem);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 1.6rem;
+}
+
+#controls {
+    background-color: var(--bg-primary-light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 3.2rem;
+
+    border-radius: 9999px;
+
+    width: clamp(10rem, 10rem + 30vw, 22.8rem);
+    height: clamp(8rem, 5rem + 10vw , 10.8rem);
+
+
+}
