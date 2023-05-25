@@ -8,7 +8,7 @@ This project was developed with the following technologies:
 - HTML and CSS
 - Git and Github
 
-- [Access the finished project online](https://paulakoppe.github.io/timer/)
+- [Access the finished project online](https://paulakoppe.github.io/focus-timer/)
 
 ---
 Made with ♥ by paula koppe
